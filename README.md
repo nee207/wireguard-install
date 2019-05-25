@@ -12,7 +12,12 @@ Run the script and follow the assistant:
 wget https://raw.githubusercontent.com/l-n-s/wireguard-install/master/wireguard-install.sh -O wireguard-install.sh
 bash wireguard-install.sh
 ```
+On Google Cloud:
 
+```
+wget https://raw.githubusercontent.com/nee207/wireguard-install/master/gcp_install.sh -O wireguard.sh
+bash wireguard.sh
+```
 Once it ends, you can run it again to add more users. Reboot your server to apply all settings.
 
 ## Options

@@ -107,6 +107,8 @@ AllowedIPs = 10.10.10.$newnum/32
 EOF
     wg set wg0 peer $(cat tempubkey) allowed-ips 10.10.10.$newnum/32
     echo -e "\033[37;41m添加完成，文件：/etc/wireguard/$newname.conf\033[0m"
+    content=$(cat /etc/wireguard/$newname.conf)
+    	echo "${content}" | qrencode -o - -t UTF8
     rm -f temprikey tempubkey
 }
 

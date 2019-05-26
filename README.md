@@ -18,6 +18,11 @@ On Google Cloud:
 wget https://raw.githubusercontent.com/nee207/wireguard-install/master/gcp_install.sh -O wireguard.sh
 bash wireguard.sh
 ```
+On CentOS6
+```
+wget https://raw.githubusercontent.com/nee207/wireguard-install/master/bwg_install.sh -O wireguard.sh
+bash wireguard.sh
+```
 Once it ends, you can run it again to add more users. Reboot your server to apply all settings.
 
 ## Options
